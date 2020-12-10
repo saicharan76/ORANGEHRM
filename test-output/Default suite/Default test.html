@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 10 08:25:54 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>282 seconds (282003 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Employee should be able to view his personal details", "OrangeHRM"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#menu_pim_viewMyDetails&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-LG7QVI3&apos;, ip: &apos;192.168.43.199&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3bedbc772b39d1eba844264f3183e1f
+*** Element info: {Using=id, value=menu_pim_viewMyDetails}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at pagefactory_login.PIM.clickMyInfo(PIM.java:186)
+	at step_orange.Steps.user_clicks_on_My_Info_Module_and_can_view_his_personal_details_only(Steps.java:325)
+	at ?.User clicks on My Info Module and can view his personal details only(features/Orange.feature:92)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1217639236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1217639236'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#menu_pim_viewMyDetails&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-LG7QVI3&apos;, ip: &apos;192.168.43.199&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3bedbc772b39d1eba844264f3183e1f
+*** Element info: {Using=id, value=menu_pim_viewMyDetails}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at pagefactory_login.PIM.clickMyInfo(PIM.java:186)
+	at step_orange.Steps.user_clicks_on_My_Info_Module_and_can_view_his_personal_details_only(Steps.java:325)
+	at ?.User clicks on My Info Module and can view his personal details only(features/Orange.feature:92)
+</pre></div></td>
+<td>22</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful login with invalid credentials", "OrangeHRM"</td>
+<td></td>
+<td>22</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unsuccessful login with invalid credentials", "OrangeHRM"</td>
+<td></td>
+<td>14</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failure in Login on leaving the username empty", "OrangeHRM"</td>
+<td></td>
+<td>12</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failure in Login on leaving the password empty", "OrangeHRM"</td>
+<td></td>
+<td>10</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Failure in Login on leaving username and password fields empty", "OrangeHRM"</td>
+<td></td>
+<td>10</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "OrangeHRM"</td>
+<td></td>
+<td>17</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Configure PIM field in Configuration", "OrangeHRM"</td>
+<td></td>
+<td>22</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to Defined Custom Fields module", "OrangeHRM"</td>
+<td></td>
+<td>21</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View all Employee Details in PIM Module", "OrangeHRM"</td>
+<td></td>
+<td>21</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Employee Details", "OrangeHRM"</td>
+<td></td>
+<td>23</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User should be able to generate reports of employees in reports section", "OrangeHRM"</td>
+<td></td>
+<td>31</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin should be able to view his personal details", "OrangeHRM"</td>
+<td></td>
+<td>23</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+<tr>
+<td title='testrunner.TestNG.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestNG<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful logout from OrangeHRM page", "OrangeHRM"</td>
+<td></td>
+<td>26</td>
+<td>testrunner.TestNG@71be98f5</td></tr>
+</table><p>
+</body>
+</html>

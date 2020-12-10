@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="282003" started-at="2020-12-10T02:55:54Z" finished-at="2020-12-10T03:00:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="282003" started-at="2020-12-10T02:55:54Z" finished-at="2020-12-10T03:00:36Z">
+      <class name="testrunner.TestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestNG@71be98f5]" name="setUpClass" is-config="true" duration-ms="209" started-at="2020-12-10T08:25:54Z" finished-at="2020-12-10T08:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="22684" started-at="2020-12-10T08:25:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="14087" started-at="2020-12-10T08:26:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="12727" started-at="2020-12-10T08:26:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:26:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure in Login on leaving the username empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="10731" started-at="2020-12-10T08:26:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:26:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure in Login on leaving the password empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="10800" started-at="2020-12-10T08:26:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failure in Login on leaving username and password fields empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="17062" started-at="2020-12-10T08:27:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="22972" started-at="2020-12-10T08:27:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:27:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Configure PIM field in Configuration"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="21479" started-at="2020-12-10T08:27:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to Defined Custom Fields module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="21426" started-at="2020-12-10T08:28:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:28:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View all Employee Details in PIM Module"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="23445" started-at="2020-12-10T08:28:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:28:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Employee Details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="31224" started-at="2020-12-10T08:28:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:29:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User should be able to generate reports of employees in reports section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="23688" started-at="2020-12-10T08:29:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin should be able to view his personal details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="22455" started-at="2020-12-10T08:29:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Employee should be able to view his personal details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#menu_pim_viewMyDetails"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LG7QVI3', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3bedbc772b39d1eba844264f3183e1f
+*** Element info: {Using=id, value=menu_pim_viewMyDetails}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#menu_pim_viewMyDetails"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LG7QVI3', ip: '192.168.43.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e3bedbc772b39d1eba844264f3183e1f
+*** Element info: {Using=id, value=menu_pim_viewMyDetails}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at pagefactory_login.PIM.clickMyInfo(PIM.java:186)
+	at step_orange.Steps.user_clicks_on_My_Info_Module_and_can_view_his_personal_details_only(Steps.java:325)
+	at ?.User clicks on My Info Module and can view his personal details only(features/Orange.feature:92)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestNG@71be98f5]" name="runScenario" duration-ms="26837" started-at="2020-12-10T08:30:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-10T08:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful logout from OrangeHRM page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestNG@71be98f5]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2020-12-10T08:30:36Z" finished-at="2020-12-10T08:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
